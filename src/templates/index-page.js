@@ -22,7 +22,8 @@ export const IndexPageTemplate = ({
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
+        backgroundPosition: `top center`,
+        backgroundSize: 'cover',
         backgroundAttachment: `fixed`,
       }}
     >

@@ -41,14 +41,14 @@ const Navbar = class extends React.Component {
         className="navbar is-transparent "
         role="navigation"
         aria-label="main-navigation"
-        style={{
+        style={!!this.props.image ? {
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
             !!this.props.image.childImageSharp ? this.props.image.childImageSharp.fluid.src : this.props.image
           })`,
-          backgroundPosition: `top left`,
+          backgroundPosition: `top center`,
           backgroundSize: 'cover',
           backgroundAttachment: `fixed`,
-        }}>
+        } : {backgroundImage: `none`}}>
         <div className="container">
           <div className="navbar-brand">
             {/* Hamburger menu */}
