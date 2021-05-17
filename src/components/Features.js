@@ -4,22 +4,28 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
-    {gridItems.map((item) => (
-      <div key={item.text} className="column is-6">
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block',
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
-            </div>
-          </div>
-          <p>{item.text}</p>
-        </section>
+    {gridItems.map((item, index) => (
+      index % 2 == 0 ? 
+      <div key={item.text} className="blurb-container">
+        <div className="blurb-card" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
+          !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image
+        })`,
+        backgroundPosition: `top center`,
+        backgroundSize: 'cover',}}></div>
+      <div className="blurb-card">
+        <div className="blurb-card-content">{item.text}</div> 
       </div>
+      </div>
+      : <div key={item.text} className="blurb-container">
+      <div className="blurb-card">
+        <div className="blurb-card-content">{item.text}</div>
+      </div>
+      <div className="blurb-card" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
+          !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image
+        })`,
+        backgroundPosition: `top center`,
+        backgroundSize: 'cover',}}></div>
+    </div>
     ))}
   </div>
 )
