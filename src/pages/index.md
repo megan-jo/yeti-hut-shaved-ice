@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/web_©2020_lindseytippetts_yetihut-d26a0326.jpg
+image: /img/snowcones.jpg
 heading: Great coffee with a conscience
 announcements: none
 mainpitch:
