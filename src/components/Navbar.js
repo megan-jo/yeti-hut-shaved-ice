@@ -45,7 +45,7 @@ const Navbar = class extends React.Component {
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
             !!this.props.image.childImageSharp ? this.props.image.childImageSharp.fluid.src : this.props.image
           })`,
-          backgroundPosition: `top center`,
+          backgroundPosition: `center center`,
           backgroundSize: 'cover',
           backgroundAttachment: `fixed`,
         } : {backgroundImage: `none`}}>

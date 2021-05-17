@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Content, { HTMLContent } from '../components/Content'
+
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="is-multiline">
@@ -10,20 +12,20 @@ const FeatureGrid = ({ gridItems }) => (
         <div className="blurb-card" style={{backgroundImage: `url(${
           !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image
         })`,
-        backgroundPosition: `top center`,
+        backgroundPosition: `center center`,
         backgroundSize: 'cover',}}></div>
       <div className="blurb-card">
-        <div className="blurb-card-content">{item.text}</div> 
+        <div className="blurb-card-content"><HTMLContent className="content" content={item.text} /></div> 
       </div>
       </div>
       : <div key={item.text} className="blurb-container">
       <div className="blurb-card">
-        <div className="blurb-card-content">{item.text}</div>
+        <div className="blurb-card-content"><HTMLContent className="content" content={item.text} /></div>
       </div>
       <div className="blurb-card" style={{backgroundImage: `url(${
           !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image
         })`,
-        backgroundPosition: `top center`,
+        backgroundPosition: `center center`,
         backgroundSize: 'cover',}}></div>
     </div>
     ))}
