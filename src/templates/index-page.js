@@ -38,7 +38,7 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className="heading-text has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             color: 'white',
             lineHeight: '1',
@@ -48,7 +48,7 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="heading-text has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             color: 'white',
             lineHeight: '1',
@@ -63,19 +63,6 @@ export const IndexPageTemplate = ({
       <div className="divider-bar"/>
       <div className="post-feed">
         <Features gridItems={intro.blurbs}/>
-      <div className="post-card ">
-        <div className="post-card-content">
-          <h2>Our Location</h2>
-          <div>
-            220 North 600 West Pleasant Grove, Utah
-          </div>
-          <button>Find Us</button>
-          <h2>Hours</h2>
-          <p style={{maxWidth: '75%'}}>Opening Soon for the 2021 Season! <br/> Watch our Facebook and Instagram pages for information on opening dates and times</p>
-          
-        </div>
-      </div>
-      <div className="post-card" ></div>
       </div>
     </section>
   </div>

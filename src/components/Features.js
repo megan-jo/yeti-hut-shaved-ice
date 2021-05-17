@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className="is-multiline">
     {gridItems.map((item, index) => (
       index % 2 == 0 ? 
       <div key={item.text} className="blurb-container">
-        <div className="blurb-card" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
+        <div className="blurb-card" style={{backgroundImage: `url(${
           !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image
         })`,
         backgroundPosition: `top center`,
@@ -20,7 +20,7 @@ const FeatureGrid = ({ gridItems }) => (
       <div className="blurb-card">
         <div className="blurb-card-content">{item.text}</div>
       </div>
-      <div className="blurb-card" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
+      <div className="blurb-card" style={{backgroundImage: `url(${
           !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image
         })`,
         backgroundPosition: `top center`,
