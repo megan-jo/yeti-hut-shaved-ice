@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Content, { HTMLContent } from '../components/Content'
+import ReactMarkdown from 'react-markdown'
 
 
 const FeatureGrid = ({ gridItems }) => (
@@ -15,12 +15,12 @@ const FeatureGrid = ({ gridItems }) => (
         backgroundPosition: `center center`,
         backgroundSize: 'cover',}}></div>
       <div className="blurb-card">
-        <div className="blurb-card-content"><HTMLContent className="content" content={item.text} /></div> 
+        <div className="blurb-card-content"><ReactMarkdown>{item.text}</ReactMarkdown></div> 
       </div>
       </div>
       : <div key={item.text} className="blurb-container">
       <div className="blurb-card">
-        <div className="blurb-card-content"><HTMLContent className="content" content={item.text} /></div>
+        <div className="blurb-card-content"><ReactMarkdown>{item.text}</ReactMarkdown></div>
       </div>
       <div className="blurb-card" style={{backgroundImage: `url(${
           !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image
