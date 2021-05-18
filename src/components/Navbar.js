@@ -48,7 +48,7 @@ const Navbar = class extends React.Component {
           backgroundPosition: `center center`,
           backgroundSize: 'cover',
           backgroundAttachment: `fixed`,
-        } : {backgroundImage: `none`}}>
+        } : {backgroundColor: `#009397`}}>
         <div className="container">
           <div className="navbar-brand">
             {/* Hamburger menu */}
@@ -94,14 +94,14 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered nav-social">
-            <a title="facebook" href="https://facebook.com">
+            <a title="facebook" href="https://www.facebook.com/yetihutshavedice">
                   <img
                     src={facebook}
                     alt="Facebook"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com">
+                <a title="instagram" href="https://www.instagram.com/yetihutshavedice/">
                   <img
                     src={instagram}
                     alt="Instagram"

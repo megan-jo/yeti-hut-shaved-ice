@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
@@ -9,7 +10,7 @@ export const IndexPageTemplate = ({
   image,
   title,
   heading,
-  announcement,
+  announcements,
   mainpitch,
   description,
   intro,
@@ -54,7 +55,7 @@ export const IndexPageTemplate = ({
             padding: '0.25em',
           }}
         >
-          {announcement}
+          {announcements}
         </h3>
       </div>
     </div>
@@ -71,7 +72,7 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
-  announcement: PropTypes.string,
+  announcements: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -81,14 +82,18 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-  console.log(frontmatter);
+  useEffect(() => {
+    var blurbContents = document.querySelector(".blurb-card-content a");
+    blurbContents.parentElement.className = "btn";
+  
+  });
   return (
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
-        announcement={frontmatter.announcement}
+        announcements={frontmatter.announcements}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -120,7 +125,7 @@ export const pageQuery = graphql`
           }
         }
         heading
-        announcement
+        announcements
         mainpitch {
           title
           description

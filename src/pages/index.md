@@ -11,7 +11,6 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-announcement: Support sustainable farming while enjoying a cup
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
@@ -36,7 +35,7 @@ intro:
         [Find Us](https://goo.gl/maps/awsMTrgAvcatcizq9)
 
 
-        ### [](https://goo.gl/maps/awsMTrgAvcatcizq9)Hours
+        ### Hours
 
 
         Opening Soon for the 2021 Season!
