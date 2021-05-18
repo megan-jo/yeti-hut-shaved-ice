@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Pleasant Grove's local favorite for premium shaved ice with amazing flavors
 image: /img/snowcones.jpg
 heading: Great coffee with a conscience
-announcements: none
+announcements: Closed for the day due to bad weather
 mainpitch:
   title: Why Kaldi
   description: >
@@ -42,6 +42,8 @@ intro:
 
 
         Watch our Facebook and Instagram pages for information on opening dates and times
+    - image: /img/blog-index.jpg
+      text: Test
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
