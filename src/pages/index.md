@@ -26,11 +26,23 @@ intro:
         * Powdery Soft Snow that rivals Mother Nature
         * Offering all natural flavors with no artificial colors or flavors
     - image: /img/aubrey-with-snowcone.jpg
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+      text: >-
+        ### Our Location
+
+
+        220 North 600 West Pleasant Grove, Utah
+
+
+        [Find Us](https://goo.gl/maps/awsMTrgAvcatcizq9)
+
+
+        ### [](https://goo.gl/maps/awsMTrgAvcatcizq9)Hours
+
+
+        Opening Soon for the 2021 Season!
+
+
+        Watch our Facebook and Instagram pages for information on opening dates and times
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
