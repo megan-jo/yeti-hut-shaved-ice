@@ -255,7 +255,12 @@ $menu-label-color: $white-ter;
 .menu-list {
   list-style: none !important;
   text-align: left;
-  }
+}
+
+.menu-list a {
+  font-family: 'PT Sans', sans-serif;
+}
+
 .social {
   padding: 2em;
   margin-top: 40px;
