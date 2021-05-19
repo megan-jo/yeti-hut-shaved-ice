@@ -42,8 +42,6 @@ intro:
 
 
         Watch our Facebook and Instagram pages for information on opening dates and times
-    - image: /img/placeholder-image.png
-      text: Testing
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
