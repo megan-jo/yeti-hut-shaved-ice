@@ -1,19 +1,23 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
 title: About our values
-image: '/img/placeholder-image.png'
+image: /img/placeholder-image.png
 team:
   title: Our Team
   blurbs:
-    - image: /img/holding-snowcone.jpg
-      employee: Marcie
-      text: |-
-        ### Premium Ingredients
+    - image: /img/marcie-aubrey.jpg
+      employee: Marcie & Aubrey Harmon
+      text: >-
+        Marcie is originally from Southern California where she gained a strong
+        love of the beach - in fact, it’s her favorite place! She also loves to
+        garden, is a food connoisseur, and spends all of her time making shaved
+        ice! Marcie loves pomegranate, cherry and tigers blood, ESPECIALLY the
+        natural tigers blood and natural cherry \
 
-        * 100% Pure Cane Sugar
-        * Powdery Soft Snow that rivals Mother Nature
-        * Offering all natural flavors with no artificial colors or flavors
+        \
+
+        Aubrey is her daughter and is originally from Pleasant Grove! She has lived here her whole life. She is on the ballroom team at her high school, the mountain biking team and loves to spend time with her friends! A fun fact about Aubrey is that last summer she dyed the ends of her hair with the grape snow cone flavoring and she still has a bit of that coloring that never came out  When she was trying to decide her favorite snow cone flavor, she realized there are just too many and she can’t choose her favorite.
 ---
 ### Shade-grown coffee
 Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
