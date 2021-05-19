@@ -49,25 +49,40 @@ const Footer = class extends React.Component {
               <div className="column is-4">
                 <section>
                   <ul className="menu-list">
-             
+                    <li className="footer-spacer">
+                      <p className="footer-heading">Our Location</p>
+                      <p>220 North 600 West Pleasant Grove, Utah</p>
+                    </li>
+                    <li>
+                      <p className="footer-heading">Hours</p>
+                      <p>Open from the first weekend in May till Labor Day!</p>
+                      <p>While school is in session hours are : M-F 3:00PM to 8:30PM, Sat Noon - 8:30PM </p>
+                      <p>Summer Hours: Mon-Sat Noon - Sundown</p>
+                    </li>
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://www.facebook.com/yetihutshavedice">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://www.instagram.com/yetihutshavedice/">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
+              <div className="column is-4">
+                <ul className="menu-list">
+                  <li><b>Email:</b> yetihutshavedice@gmail.com</li>
+                  <li><b>Phone:</b> 801-772-4405</li>
+                </ul>
+                <div className="social">
+                  <a title="facebook" href="https://www.facebook.com/yetihutshavedice">
+                    <img
+                      src={facebook}
+                      alt="Facebook"
+                      style={{ width: '1em', height: '1em' }}
+                    />
+                  </a>
+                  <a title="instagram" href="https://www.instagram.com/yetihutshavedice/">
+                    <img
+                      src={instagram}
+                      alt="Instagram"
+                      style={{ width: '1em', height: '1em' }}
+                    />
+                  </a>
+                </div> 
               </div>
             </div>
           </div>

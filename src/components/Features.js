@@ -16,6 +16,7 @@ const FeatureGrid = ({ gridItems }) => (
       <div className="blurb-card">
         <div className="blurb-card-content"><ReactMarkdown>{item.text}</ReactMarkdown></div> 
       </div>
+      <div className="blurb-divider-bar"/>
       </div>
       : <div key={item.text} className="blurb-container">
       <div className="blurb-card">

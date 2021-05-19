@@ -41,7 +41,7 @@ export default class Index extends React.Component {
             <div className="content">
               <h1>Contact</h1>
               <p>Email: <a href="mailto:yetihutshavedice@gmail.com">yetihutshavedice@gmail.com</a></p>
-              <p>Phone #: <a href="tel:801-772-4405">801-772-4405</a></p>
+              <p>Phone: <a href="tel:801-772-4405">801-772-4405</a></p>
             </div>
           </div>
         </section>
