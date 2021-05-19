@@ -386,6 +386,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 
 @media screen and (max-width: 400px) {
   .photo {
+    min-height: 20vh;
     height: 20vh;
   }
 }
