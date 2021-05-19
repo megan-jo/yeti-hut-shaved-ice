@@ -14,6 +14,7 @@ AboutPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
+  getAsset: PropTypes.func,
   widgetFor: PropTypes.func,
 }
 

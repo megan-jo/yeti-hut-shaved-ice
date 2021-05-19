@@ -32,6 +32,7 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent }) =
       >
       </div>
     </div>
+    <div className="about-divider-bar"></div>
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">

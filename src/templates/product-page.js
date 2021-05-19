@@ -32,6 +32,7 @@ export const ProductPageTemplate = ({ title, image, content, contentComponent })
       >
       </div>
     </div>
+    <div className="menu-divider-bar"></div>
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">

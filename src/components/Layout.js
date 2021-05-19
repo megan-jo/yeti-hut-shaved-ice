@@ -7,7 +7,6 @@ import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
-  console.log(children);
   const { title, description } = useSiteMetadata()
   return (
     <div>

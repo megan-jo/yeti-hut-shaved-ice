@@ -32,6 +32,7 @@ export const JobPageTemplate = ({ title, image, content, contentComponent }) => 
       >
       </div>
     </div>
+    <div className="job-divider-bar"></div>
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">
@@ -58,7 +59,6 @@ JobPageTemplate.propTypes = {
 
 const JobPage = ({ data }) => {
   const { markdownRemark: post } = data
-  console.log(post.frontmatter);
   return (
     <Layout>
       <JobPageTemplate

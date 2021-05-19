@@ -9,10 +9,7 @@ import Features from '../components/Features'
 export const IndexPageTemplate = ({
   image,
   title,
-  heading,
   announcements,
-  mainpitch,
-  description,
   intro,
 }) => (
   <div>
@@ -71,10 +68,7 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
   announcements: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -92,10 +86,7 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
         announcements={frontmatter.announcements}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -124,13 +115,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        heading
         announcements
-        mainpitch {
-          title
-          description
-        }
-        description
         intro {
           blurbs {
             image {
@@ -142,8 +127,6 @@ export const pageQuery = graphql`
             }
             text
           }
-          heading
-          description
         }
       }
     }
