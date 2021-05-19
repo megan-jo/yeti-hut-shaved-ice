@@ -1,7 +1,7 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: 'job-page'
+path: /job
+title: Jobs
 image: '/img/placeholder-image.png'
 ---
 ### Shade-grown coffee
