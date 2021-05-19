@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { JobPageTemplate } from '../../templates/job-page'
 
-const JobPagePreview = ({ entry, widgetFor }) => (
+const JobPagePreview = ({ entry, getAsset, widgetFor }) => (
   <JobPageTemplate
     image={getAsset(entry.getIn(['data', 'image']))}
     title={entry.getIn(['data', 'title'])}
