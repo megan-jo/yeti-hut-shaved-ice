@@ -30,7 +30,4 @@ intro:
 
 
         Watch our Facebook and Instagram pages for information on opening dates and times
-    - image: /img/placeholder-image.png
-      text: Testing
-
 ---
