@@ -49,21 +49,22 @@ const Footer = class extends React.Component {
               <div className="column is-4">
                 <section>
                   <ul className="menu-list">
-                    <li className="footer-spacer">
-                      <p className="footer-heading">Our Location</p>
-                      <p>220 North 600 West Pleasant Grove, Utah</p>
-                    </li>
                     <li>
                       <p className="footer-heading">Hours</p>
-                      <p>Open from the first weekend in May till Labor Day!</p>
-                      <p>While school is in session hours are : M-F 3:00PM to 8:30PM, Sat Noon - 8:30PM </p>
-                      <p>Summer Hours: Mon-Sat Noon - Sundown</p>
+                      <p>Open the first weekend in May until Labor Day!</p><br/>
+                      <p><u>While school is in session hours are: </u><br/> M-F 3:00PM - 8:30PM, Sat 12:00PM - 8:30PM </p><br/>
+                      <p><u>Summer Hours:<br/></u> M-Sat 12:00PM - Sundown</p><br/>
+                      <p>Closed Sundays</p>
                     </li>
                   </ul>
                 </section>
               </div>
               <div className="column is-4">
                 <ul className="menu-list">
+                  <li className="footer-spacer">
+                      <p className="footer-heading">Our Location</p>
+                      <p>220 North 600 West Pleasant Grove, Utah</p>
+                  </li>
                   <li><b>Email:</b> yetihutshavedice@gmail.com</li>
                   <li><b>Phone:</b> 801-772-4405</li>
                 </ul>

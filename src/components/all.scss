@@ -367,6 +367,13 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   margin-bottom: 0px; 
 }
 
+@media screen and (min-width: 769px) {
+  .column.is-4 {
+      flex: none;
+      width: 36.33333%;
+  }
+}
+
 @media screen and (max-width: 1213px) {
   .team-card {
     flex: 1 1 100%;
