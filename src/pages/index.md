@@ -13,21 +13,18 @@ intro:
         * Powdery Soft Snow that rivals Mother Nature
         * Offering all natural flavors with no artificial colors or flavors
     - image: /img/aubrey-with-snowcone.jpg
-      text: >-
+      text: |-
         ### Our Location
-
 
         220 North 600 West Pleasant Grove, Utah
 
-
         [Find Us](https://goo.gl/maps/awsMTrgAvcatcizq9)
-
 
         ### Hours
 
+        Monday - Saturday
 
-        Opening Soon for the 2021 Season!
+        12pm-9pm
 
-
-        Watch our Facebook and Instagram pages for information on opening dates and times
+        Closed Sundays
 ---
