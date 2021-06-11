@@ -6,7 +6,7 @@ image: /img/topdown-snowcone.jpg
 ---
 **Classic Flavors:** 
 
-*Bahama Mama -* tropcial fruit with coconut 
+*Bahama Mama -* tropical fruit with coconut 
 
 *Banana*
 
@@ -66,7 +66,7 @@ image: /img/topdown-snowcone.jpg
 
 *Tidal Wave* - unique, light citrus "beachy" flavor 
 
-*Tigers Blood* - starberry, watermelon & coconut
+*Tigers Blood* - strawberry, watermelon & coconut
 
 *Tropics* - strawberry, banana, pineapple 
 
@@ -76,9 +76,9 @@ image: /img/topdown-snowcone.jpg
 
 **Handcrafted Flavors (created by us):** 
 
-HImalayan Sunrise - pina colada, tropics, bahama mama & citric acid mixed
+Himalayan Sunrise - pina colada, tropics, bahama mama & citric acid mixed
 
-Raspberyy Cream 
+Raspberry Cream 
 
 Mountain Sunset - pomegranate, cherry & lime mixed 
 
