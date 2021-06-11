@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Pleasant Grove's local favorite for premium shaved ice with amazing flavors
 image: /img/snowcones.jpg
-announcements: Closed for the day due to bad weather
+announcements: ""
 intro:
   blurbs:
     - image: /img/holding-snowcone.jpg
