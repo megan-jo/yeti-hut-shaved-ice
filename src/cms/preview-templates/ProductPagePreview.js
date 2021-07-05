@@ -9,7 +9,7 @@ const ProductPagePreview = ({ entry, getAsset, widgetFor }) => {
       image={getAsset(entry.getIn(['data', 'image']))}
       title={entry.getIn(['data', 'title'])}
       col1={entry.getIn(['data', 'col1'])}
-      col2={entry.getIn['data, col2']}
+      col2={entry.getIn(['data', 'col2'])}
       content={widgetFor('body')}
       addons={entry.getIn(['data', 'addons']) || { blurbs: [] }}
     />

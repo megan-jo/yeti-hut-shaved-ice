@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import ReactMarkdown from 'react-markdown'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const ProductPageTemplate = ({ title, image, content, contentComponent }) => {
+export const ProductPageTemplate = ({ title, image, col1, col2, addons, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -41,7 +42,22 @@ export const ProductPageTemplate = ({ title, image, content, contentComponent })
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                   {title}
                 </h2>
-                <PageContent className="content" content={content} />
+                <div className="menu-two-column">
+                  <div className="menu-col1">
+                    <ReactMarkdown>{col1}</ReactMarkdown>
+                  </div>
+                  {col2 &&
+                    <div className="">
+                      <ReactMarkdown>{col2}</ReactMarkdown>
+                    </div>
+                  }
+                </div>
+                {addons.blurbs && addons.blurbs.map((addon, index) => (
+                  <div >
+                    <h2 className="addon-title">{addon.addonName}</h2>
+                    <ReactMarkdown>{addon.text}</ReactMarkdown>
+                  </div>  
+                ))}
               </div>
             </div>
           </div>
@@ -69,7 +85,9 @@ const ProductPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         image={post.frontmatter.image}
-        content={post.html}
+        col1={post.frontmatter.col1}
+        col2={post.frontmatter.col2}
+        addons={post.frontmatter.addons}
       />
     </Layout>
   )

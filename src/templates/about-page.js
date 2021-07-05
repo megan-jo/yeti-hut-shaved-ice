@@ -10,40 +10,20 @@ export const AboutPageTemplate = ({ title, image, team, content, contentComponen
 
   return (
     <div>
-      <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `center center`,
-        backgroundSize: 'cover',
-        backgroundAttachment: `fixed`,
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-      </div>
-    </div>
     <div className="about-divider-bar"></div>
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <div className="section">
-                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                  {title}
-                </h2>
-                <PageContent className="content" content={content} />
-              </div>
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                {title}
+              </h2>
+              {content && 
+                <div className="section">
+                  <PageContent className="content" content={content} />
+                </div>
+              }
+              
               <div className="section">
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                   {team.title}
@@ -72,7 +52,6 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
-        image={post.frontmatter.image}
         team={post.frontmatter.team}
         content={post.html}
       />
@@ -92,13 +71,6 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         team {
           title
           blurbs {

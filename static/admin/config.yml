@@ -50,7 +50,6 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: Image, name: image, widget: image, default: "/img/placeholder-image.png"}
           - {label: Team Highlights, name: team, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image, default: "/img/placeholder-image.png"},{label: Team Member Name, name: employee, widget: string}, {label: Text, name: text, widget: markdown}]}]}
           - {label: "Body", name: "body", widget: "markdown", required: false}
       - file: "src/pages/jobs/index.md"
