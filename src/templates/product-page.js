@@ -55,6 +55,9 @@ ProductPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
+  addons: PropTypes.shape({
+    blurbs: PropTypes.array,
+  }),
 }
 
 const ProductPage = ({ data }) => {
@@ -89,6 +92,14 @@ export const productPageQuery = graphql`
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
+          }
+        }
+        col1
+        col2
+        addons {
+          blurbs {
+            addonName
+            text
           }
         }
       }

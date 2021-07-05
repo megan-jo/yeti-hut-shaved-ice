@@ -3,6 +3,16 @@ templateKey: product-page
 path: /menu
 title: Menu & Flavors
 image: /img/topdown-snowcone.jpg
+col1: ""
+col2: ""
+addons:
+ blurbs:
+    - addonName: Addons
+      text: |-
+        whipped cream
+    - addonName: Other
+      text: |-
+        Some More Things
 ---
 **Classic Flavors:** 
 

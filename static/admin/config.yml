@@ -68,4 +68,6 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: Image, name: image, widget: image}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: Body Column 1, name: col1, widget: markdown}
+          - {label: Body Column 2, name: col2, widget: markdown, required: false}
+          - {label: Menu Blurbs, name: addons, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Section name, name: addonName, widget: string}, {label: Text, name: text, widget: markdown}]}], required: false}
