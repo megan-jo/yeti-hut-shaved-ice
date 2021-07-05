@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: /about
-title: Our Owners
+title: About Us
 image: /img/image-coming-soon-placeholder-e1518111259296.png
 team:
   title: Our Owners
