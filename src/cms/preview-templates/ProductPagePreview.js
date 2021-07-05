@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { ProductPageTemplate } from '../../templates/product-page'
 
 const ProductPagePreview = ({ entry, getAsset, widgetFor }) => {
- 
+  console.log(entry);
   return (
     <ProductPageTemplate
       image={getAsset(entry.getIn(['data', 'image']))}
