@@ -84,7 +84,9 @@ col2: |-
 
   Sour Blue Raspberry 
 
-  **All Natural Flavors** 
+
+
+  **All Natural Flavors:**
 
   *Cherry Treetop* 
 
@@ -102,7 +104,9 @@ col2: |-
 
   *Watermelon* 
 
-  **Sugar Free Flavors (sweetened with aspartame & sorbitol)** 
+
+
+  **Sugar Free Flavors (sweetened with aspartame & sorbitol):** 
 
   *Blue Raspberry* 
 
