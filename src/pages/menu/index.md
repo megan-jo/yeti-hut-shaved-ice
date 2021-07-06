@@ -117,7 +117,7 @@ col2: |-
   *Tigers Blood*
 addons:
   blurbs:
-    - addonName: Topings and Add-ons
+    - addonName: Toppings and Add-ons
       text: |-
         Sour Spray                             (free)
 
