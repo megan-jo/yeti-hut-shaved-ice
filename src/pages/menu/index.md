@@ -66,7 +66,7 @@ col1: |-
 
   *Tidal Wave* - unique, light citrus "beachy" flavor 
 
-  *Tigers Blood* - strawberry, watermelon & coconut
+  *Tigers Blood* 
 
   *Tropics* - strawberry, banana, pineapple 
 
@@ -76,11 +76,11 @@ col1: |-
 col2: |-
   **Handcrafted Flavors (created by us):** 
 
-  Himalayan Sunrise - pina colada, tropics, bahama mama & citric acid mixed
+  Himalayan Sunrise
 
   Raspberry Cream 
 
-  Mountain Sunset - pomegranate, cherry & lime mixed 
+  Mountain Sunset
 
   Sour Blue Raspberry 
 
@@ -98,7 +98,7 @@ col2: |-
 
   *Raspberry Rave* 
 
-  *Tigers Blood* - natural strawberry, watermelon & coconut 
+  *Tigers Blood*  
 
   *Watermelon* 
 
