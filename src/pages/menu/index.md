@@ -113,10 +113,19 @@ col2: |-
   *Tigers Blood*
 addons:
   blurbs:
-    - addonName: Addons
-      text: whipped cream
-    - addonName: Other
-      text: Some More Things
+    - addonName: Topings and Add-ons
+      text: |-
+        Sour Spray                             (free)
+
+        Heavy Cream                         (.50)
+
+        Sweetened Condensed Milk (.50)
+
+        Whipped Cream                    (.50)
+
+        Liliko'i passion fruit puree     ($1)
+
+        Ice Cream                              ($1)
 ---
 **Classic Flavors:** 
 
