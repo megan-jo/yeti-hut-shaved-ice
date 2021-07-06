@@ -3,15 +3,15 @@ import PropTypes from 'prop-types'
 import { ProductPageTemplate } from '../../templates/product-page'
 
 const ProductPagePreview = ({ entry, getAsset, widgetFor }) => {
-  console.log(entry);
+  const data = entry.getIn(['data']).toJS()
   return (
     <ProductPageTemplate
-      image={getAsset(entry.getIn(['data', 'image']))}
-      title={entry.getIn(['data', 'title'])}
-      col1={entry.getIn(['data', 'col1'])}
-      col2={entry.getIn(['data', 'col2'])}
+      image={getAsset(data.image)}
+      title={data.title}
+      col1={data.col1}
+      col2={data.col2}
       content={widgetFor('body')}
-      addons={entry.getIn(['data', 'addons']) || { blurbs: [] }}
+      addons={data.addons || { blurbs: [] }}
     />
   )
 }
