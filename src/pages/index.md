@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: CLOSING EARLY TODAY (we will close at 4pm today, August 6th, for an event
-  @ PGHS)
+title: Pleasant Grove's locak favorite for premium shaved ice with amazing flavors.
 image: /img/snowcones.jpg
-announcements: ""
+announcements: CLOSING EARLY (5pm) on Saturday, August 7th. We will be serving
+  delicious shave ice at a wedding! Ooh! so Yummy!
 intro:
   blurbs:
     - image: /img/holding-snowcone.jpg
