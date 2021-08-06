@@ -1,6 +1,7 @@
 ---
 templateKey: index-page
-title: Pleasant Grove's local favorite for premium shaved ice with amazing flavors
+title: CLOSING EARLY TODAY (we will close at 4pm today, August 6th, for an event
+  @ PGHS)
 image: /img/snowcones.jpg
 announcements: ""
 intro:
