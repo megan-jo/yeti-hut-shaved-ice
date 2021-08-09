@@ -2,7 +2,8 @@
 templateKey: index-page
 title: Pleasant Grove's local favorite for premium shaved ice with amazing flavors.
 image: /img/snowcones.jpg
-announcements: ""
+announcements: Introducing..... Macadamia nuts! This tropical treat has just
+  been added to our menu. Pictures coming soon!
 intro:
   blurbs:
     - image: /img/holding-snowcone.jpg
