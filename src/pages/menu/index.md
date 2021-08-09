@@ -127,6 +127,8 @@ addons:
 
         Whipped Cream                    (.50)
 
+        Macadamia Nuts                   (.50)
+
         Liliko'i passion fruit puree     ($1)
 
         Ice Cream                              ($1)
