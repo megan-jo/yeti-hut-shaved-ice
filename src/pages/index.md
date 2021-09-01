@@ -2,10 +2,7 @@
 templateKey: index-page
 title: Pleasant Grove's local favorite for premium shaved ice with amazing flavors.
 image: /img/snowcones.jpg
-announcements: NOW SERVING..... Macadamia nuts! Dry roasted with sea salt,
-  macadamias with shave ice make a perfect combination of Sweet and Salty.
-  Combining the nuts with ice cream in your shave ice is the most common way to
-  enjoy them. Try some TODAY!
+announcements: Open through Labor Day (except during inclement weather).
 intro:
   blurbs:
     - image: /img/holding-snowcone.jpg
