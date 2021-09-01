@@ -22,15 +22,17 @@ intro:
 
         Pleasant Grove, Utah
 
-
-
         [Find Us](https://goo.gl/maps/awsMTrgAvcatcizq9)
 
         ### Hours
 
-        Monday - Saturday
+        Monday - Friday
 
-        12pm-9pm
+        3pm-8pm
+
+        Saturdays & Holidays
+
+        12:00pm-8pm
 
         Closed Sundays
 ---
