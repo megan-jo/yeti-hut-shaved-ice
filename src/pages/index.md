@@ -2,7 +2,9 @@
 templateKey: index-page
 title: Pleasant Grove's local favorite for premium shaved ice with amazing flavors.
 image: /img/snowcones.jpg
-announcements: Open through Labor Day (except during inclement weather).
+announcements: Our stand is closed for the season, but we are available for
+  parties and other events all year. We also provide equipment rental and
+  supplies for small events. Contact us for more information.
 intro:
   blurbs:
     - image: /img/holding-snowcone.jpg
@@ -15,24 +17,27 @@ intro:
 
           * Sugar Free flavors available
     - image: /img/aubrey-with-snowcone.jpg
-      text: |-
+      text: >-
         ### Our Location
+
+
+        (Returning in April 2022)
+
 
         220 North 600 West
 
+
         Pleasant Grove, Utah
+
 
         [Find Us](https://goo.gl/maps/awsMTrgAvcatcizq9)
 
+
         ### Hours
 
-        Monday - Friday
 
-        3pm-8pm
+        **Closed for the season**
 
-        Saturdays & Holidays
 
-        12:00pm-8pm
-
-        Closed Sundays
+        Contact us for year round catering at parties and other events, or for small equipment rental and supplies.
 ---
