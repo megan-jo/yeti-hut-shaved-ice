@@ -2,9 +2,7 @@
 templateKey: index-page
 title: Pleasant Grove's local favorite for premium shaved ice with amazing flavors.
 image: /img/snowcones.jpg
-announcements: Our stand is closed for the season, but we are available for
-  parties and other events all year. We also provide equipment rental and
-  supplies for small events. Contact us for more information.
+announcements: OPENING  FOR THE 2022 SEASON ON SATURDAY, MAY 7TH!
 intro:
   blurbs:
     - image: /img/holding-snowcone.jpg
@@ -19,9 +17,6 @@ intro:
     - image: /img/aubrey-with-snowcone.jpg
       text: >-
         ### Our Location
-
-
-        (Returning in April 2022)
 
 
         220 North 600 West
