@@ -15,24 +15,16 @@ intro:
 
           * Sugar Free flavors available
     - image: /img/aubrey-with-snowcone.jpg
-      text: >-
+      text: |-
         ### Our Location
-
 
         220 North 600 West
 
-
         Pleasant Grove, Utah
-
 
         [Find Us](https://goo.gl/maps/awsMTrgAvcatcizq9)
 
-
         ### Hours
 
-
-        **Closed for the season**
-
-
-        Contact us for year round catering at parties and other events, or for small equipment rental and supplies.
+        **WILL BE POSTED SOON**
 ---
