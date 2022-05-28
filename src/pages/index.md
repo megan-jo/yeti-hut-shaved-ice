@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Pleasant Grove's local favorite for premium shaved ice with amazing flavors.
 image: /img/snowcones.jpg
-announcements: OPENING SOON FOR THE 2022 SEASON!
+announcements: We will be closed Saturday, June 4th due to an event in the parking lot
 intro:
   blurbs:
     - image: /img/holding-snowcone.jpg
@@ -26,5 +26,9 @@ intro:
 
         ### Hours
 
-        **WILL BE POSTED SOON**
+        **M-F 3pm to 8pm**
+
+        **Saturdays 12pm to 8pm**
+
+        **Closed Sundays**
 ---
