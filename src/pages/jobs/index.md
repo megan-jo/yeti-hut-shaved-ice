@@ -10,6 +10,6 @@ image: /img/handing-snowcone.jpg
 
 ##### Applicants are less likely to be considered for employment if parents talk to us about it, rather than you, the applicant. Talking to us yourself shows that you really want the job.
 
-##### Our application is closed for the 2021 season. We are fully staffed and do not expect to hire any more for this year. If you would like to apply for the 2022 season, we will start accepting applications in March. An application link will show up on this page. Check back at that time.
+##### Our application is closed for the 2022 season. We are fully staffed and do not expect to hire any more for this year. If you would like to apply for the 2023 season, we will start accepting applications in March. An application link will show up on this page. Check back at that time.
 
 ##### Thank You!
